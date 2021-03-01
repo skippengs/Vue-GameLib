@@ -1,4 +1,4 @@
-# authtest
+# Vue-GameLib
 
 ## Project setup
 ```
