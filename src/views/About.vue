@@ -1,20 +1,18 @@
 <template>
-  <div class="about">
-    <div class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title is-size-1">About Animal Rescue League</h1>          
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h1 class="display-4">Hello, world!</h1>
+          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <hr class="my-4">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <p class="org-description is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia aperiam eligendi dolorum reprehenderit ea amet, aliquid dolorem beatae, iste aliquam ullam. Sequi ab eligendi consectetur neque laudantium, libero asperiores.</p>
-      <p class="org-description is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia aperiam eligendi dolorum reprehenderit ea amet, aliquid dolorem beatae, iste aliquam ullam. Sequi ab eligendi consectetur neque laudantium, libero asperiores.</p>
     </div>
   </div>
 </template>
 <style lang="scss" scoped>
-  .org-description {
-    margin-top: 50px;
-  }
+  
 </style>

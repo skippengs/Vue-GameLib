@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Super Mario",
+    "owned": true,
+    "playerCount": 1,
+    "priceBought": 100,
+    "vendor": "marktplaats",
+    "platform": "NES"
+  },
+  {
+    "title": "Super Mario Bros 3",
+    "owned": false,
+    "playerCount": 2,
+    "priceBought": 200,
+    "vendor": "ebay",
+    "platform": "SNES"
+  },
+  {
+    "title": "Mario Kart 8 DX",
+    "owned": false,
+    "playerCount": 3,
+    "priceBought": 300,
+    "vendor": "rommelmarkt",
+    "platform": "SWITCH"
+  },
+  {
+    "title": "Super Mario 3",
+    "owned": true,
+    "playerCount": 1,
+    "priceBought": 100,
+    "vendor": "marktplaats",
+    "platform": "NES"
+  },
+  {
+    "title": "Super Mario world",
+    "owned": false,
+    "playerCount": 2,
+    "priceBought": 200,
+    "vendor": "ebay",
+    "platform": "SNES"
+  },
+  {
+    "title": "Mario Kart 6",
+    "owned": true,
+    "playerCount": 3,
+    "priceBought": 300,
+    "vendor": "rommelmarkt",
+    "platform": "SWITCH"
+  },
+  {
+    "title": "Super Mario",
+    "owned": true,
+    "playerCount": 1,
+    "priceBought": 100,
+    "vendor": "marktplaats",
+    "platform": "NES"
+  },
+  {
+    "title": "Super Mario Bros 3",
+    "owned": false,
+    "playerCount": 2,
+    "priceBought": 200,
+    "vendor": "ebay",
+    "platform": "SNES"
+  },
+  {
+    "title": "Mario Kart 8 DX",
+    "owned": false,
+    "playerCount": 3,
+    "priceBought": 300,
+    "vendor": "rommelmarkt",
+    "platform": "SEGA MASTER SYSTEM"
+  },
+  {
+    "title": "Super Mario 3",
+    "owned": true,
+    "playerCount": 1,
+    "priceBought": 100,
+    "vendor": "marktplaats",
+    "platform": "NES"
+  },
+  {
+    "title": "Super Mario world",
+    "owned": false,
+    "playerCount": 2,
+    "priceBought": 200,
+    "vendor": "ebay",
+    "platform": "XBOX 360"
+  },
+  {
+    "title": "Mario Kart 6",
+    "owned": true,
+    "playerCount": 3,
+    "priceBought": 300,
+    "vendor": "rommelmarkt",
+    "platform": "SWITCH"
+  },
+  {
+    "title": "Super Mario",
+    "owned": true,
+    "playerCount": 1,
+    "priceBought": 100,
+    "vendor": "marktplaats",
+    "platform": "NES"
+  },
+  {
+    "title": "Super Mario Bros 3",
+    "owned": false,
+    "playerCount": 2,
+    "priceBought": 200,
+    "vendor": "ebay",
+    "platform": "PLAYSTATION 1"
+  },
+  {
+    "title": "Mario Kart 8 DX",
+    "owned": false,
+    "playerCount": 3,
+    "priceBought": 300,
+    "vendor": "rommelmarkt",
+    "platform": "XBOX"
+  },
+  {
+    "title": "Super Mario 3",
+    "owned": true,
+    "playerCount": 1,
+    "priceBought": 100,
+    "vendor": "marktplaats",
+    "platform": "NES"
+  },
+  {
+    "title": "Super Mario world",
+    "owned": false,
+    "playerCount": 2,
+    "priceBought": 200,
+    "vendor": "ebay",
+    "platform": "SNES"
+  },
+  {
+    "title": "Mario Kart 6",
+    "owned": true,
+    "playerCount": 3,
+    "priceBought": 300,
+    "vendor": "rommelmarkt",
+    "platform": "PLAYSTATION 2"
+  }
+]

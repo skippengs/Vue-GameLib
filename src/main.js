@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import 'bulma/css/bulma.css';
+//import axios from 'axios'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Import the Auth0 configuration
 import { domain, clientId } from "../auth_config.json";

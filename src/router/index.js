@@ -20,9 +20,9 @@ export default new Router({
       component: () => import('../views/About.vue')
     },
     {
-      path: '/event/:id',
-      name: 'eventSingle',
-      component: () => import('../views/EventSingle.vue'),
+      path: '/game/:id',
+      name: 'GameSingle',
+      component: () => import('../views/GameSingle.vue'),
       beforeEnter: authGuard
     }
   ]
