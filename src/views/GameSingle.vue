@@ -14,7 +14,6 @@
   </div>
 </template>
 <script>
-import gamelist from '@/games.json'
 export default {
   name: 'GameSingle',
   //gamesJson: gamelist,
@@ -27,7 +26,7 @@ export default {
   },
   data: function() {
     return {
-      game: gamelist, // passing array data into Vue
+      game: this.$jsonlist, // passing array data into Vue
     };
   },
 

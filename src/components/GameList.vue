@@ -12,11 +12,19 @@
                   <GameCard :game="game" />
                 </router-link>
               </div> -->
-              <div v-for="data in $options.gamesJson" :game="data" :key="data.id" class="col-md-6">
+              
+              <div v-for="data in filteredList" :game="data" :key="data.id" class="col-md-6">
                 <router-link :to="'/game/' + data.id">
                   <GameCard :game="data" />
                 </router-link>
               </div>
+              
+              <div v-for="data in this.$jsonlist" :game="data" :key="data.id" class="col-md-6">
+                <router-link :to="'/game/' + data.id">
+                  <GameCard :game="data" />
+                </router-link>
+              </div>
+
           </div>
         </div>
     </div>
@@ -40,10 +48,8 @@
 <script>
   import GameCard from '@/components/GameCard';
   import Search from '@/components/partials/Search';
-  import gamelist from '@/games.json'
   export default {
     name: 'GameList',
-    gamesJson: gamelist,
     components : {
       GameCard,
       Search

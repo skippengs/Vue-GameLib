@@ -5,10 +5,10 @@
 
 </template>
 <script>
-import gamelist from '@/games.json'
+//import gamelist from '@/games.json'
 export default {
   name: 'Search',
-  gamesJson: gamelist,
+  //gamesJson: gamelist,
   data (){
     return{
       Search: ''
@@ -16,11 +16,13 @@ export default {
   },
   computed: {
     filteredList: function(){
-      let filteredList = this.gamesJson;
+      console.log(this.Search);
+      let filteredList = this.$jsonlist;
       filteredList = filteredList.filter(post => { 
         return post.title.toLowerCase().includes(this.Search.toLowerCase());
       });
 
+      filteredList.$emit('filteredList')
       return filteredList;
     }
   }
